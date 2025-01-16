@@ -3,7 +3,7 @@ import { IoMdMailUnread } from "react-icons/io";
 import { FaSms } from "react-icons/fa";
 const Footer = () => {
     return (
-        <div>
+        <div className='mx-5'>
             <footer className='grid grid-cols-1 lg:grid-cols-6 gap-4'>
                 <div className=" lg:col-span-2">
                     <div className="w-1/2 mb-7"><img className='w-full' src="../../../asset/logo.png" alt="" /></div>
@@ -42,7 +42,7 @@ const Footer = () => {
 
                 <div className="lg:col-span-2">
                     <h1 className='text-2xl text-gray-900 font-extrabold mb-5'>Media Gallery</h1>
-                    <div className=" grid grid-cols-2 gap-1 lg:grid-cols-3 ">
+                    <div className=" grid grid-cols-2 gap-3 lg:grid-cols-3 lg:gap-1">
                         <div className="image-container rounded-xl"><img className="w-full h-full object-contain rounded-xl" src="../../../asset/icon-1.jpg" alt="" /></div>
                         <div className="image-container rounded-xl"><img className="w-full h-full object-contain rounded-xl" src="../../../asset/icon-2.jpg" alt="" /></div>
                         <div className="image-container rounded-xl"><img className="w-full h-full object-contain rounded-xl" src="../../../asset/icon-3.jpg" alt="" /></div>

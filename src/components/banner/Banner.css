@@ -1,0 +1,8 @@
+#phonediv:hover{
+    transform: rotateY(0deg);
+	animation: rotateAnimation 1s linear;
+}
+@keyframes rotateAnimation {
+	from {transform: rotateY(45deg);}
+	to {transform: rotateY(0deg);}
+}

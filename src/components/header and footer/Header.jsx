@@ -2,12 +2,12 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 const Header = () => {
     const link =<>
-   <NavLink class="mr-3 font-bold text-gray-500 text-lg"to="/">Home</NavLink>
-   <NavLink class="mr-3 font-bold text-gray-500 text-lg"to="/aboutUs">About Us</NavLink>
-   <NavLink class="mr-3 font-bold text-gray-500 text-lg"to="/features">Features</NavLink>
-   <NavLink class="mr-3 font-bold text-gray-500 text-lg"to="/pricing">Pricing</NavLink>
-   <NavLink class="mr-3 font-bold text-gray-500 text-lg"to="/contactUs">Contact Us</NavLink>
-   <NavLink class="mr-3 font-bold text-gray-500 text-lg"to="/Pages">Pages</NavLink>
+   <NavLink className="mr-8 font-bold text-gray-500 text-lg " to="/">Home</NavLink>
+   <NavLink className="mr-8 font-bold text-gray-500 text-lg" to="/aboutUs">About Us</NavLink>
+   <NavLink className="mr-8 font-bold text-gray-500 text-lg " to="/features">Features</NavLink>
+   <NavLink className="mr-8 font-bold text-gray-500 text-lg " to="/pricing">Pricing</NavLink>
+   <NavLink className="mr-8 font-bold text-gray-500 text-lg " to="/contactUs">Contact Us</NavLink>
+   <NavLink className="mr-8 font-bold text-gray-500 text-lg " to="/Pages">Pages</NavLink>
      
     </>
     return (
@@ -35,7 +35,7 @@ const Header = () => {
                            {link}
                         </ul>
                     </div>
-                    <div className="w-1/2"><a className="btn btn-ghost text-xl"><img src="../../../asset/logo.png" alt="" /></a></div>
+                    <div className="w-2/3"><a className="btn btn-ghost text-xl"><img src="../../../asset/logo.png" alt="" /></a></div>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
@@ -44,7 +44,7 @@ const Header = () => {
                 </div>
                 <div className="navbar-end">
                     <a className="btn text-lg mr-3 bg-transparent">Signup</a>
-                    <a className="btn bg-orange-600 text-white text-lg">Sign IN</a>
+                    <a className="btn bg-orange-600 text-white text-lg">Sign In</a>
                 </div>
             </div>
         </div>
